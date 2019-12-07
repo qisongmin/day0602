@@ -1,0 +1,2 @@
+2019-12-04 17:50:23,492 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-04 17:50:23,994 INFO [root] [test_login.py(test01_login:26] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '36eb2ac4-f1ec-433f-a919-30c9aa618411'}

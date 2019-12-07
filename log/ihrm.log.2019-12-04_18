@@ -1,0 +1,26 @@
+2019-12-04 17:50:24,082 INFO [root] [test_login.py(test02_Username_Error:30] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-04 17:50:24,174 INFO [root] [test_login.py(test03_password_Error:34] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-04 17:50:24,257 INFO [root] [test_login.py(test04_No_params:38] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-04 17:50:24,350 INFO [root] [test_login.py(test05_Username_none:42] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '05e37f54-f868-4974-ac34-82e6bd3020ca'}
+2019-12-04 17:50:24,453 INFO [root] [test_login.py(test06_Passwrod_none:46] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-04 17:50:24,550 INFO [root] [test_login.py(test07_extra_params:50] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '229e26c0-8ca8-4330-9dcc-6dcf299ae389'}
+2019-12-04 17:50:24,651 INFO [root] [test_login.py(test08_less_params:54] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-04 18:12:39,712 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-04 18:13:57,641 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-04 18:14:20,956 INFO [root] [test_login.py(test01_login:26] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'd8c371c5-0779-4c76-8748-7371d2f8ebba'}
+2019-12-04 18:14:21,045 INFO [root] [test_login.py(test02_Username_Error:30] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-04 18:14:21,132 INFO [root] [test_login.py(test03_password_Error:34] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-04 18:14:21,219 INFO [root] [test_login.py(test04_No_params:38] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-04 18:14:21,308 INFO [root] [test_login.py(test05_Username_none:42] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'f2ff7d0a-c3f3-4e1c-99bc-705058c936d2'}
+2019-12-04 18:14:21,401 INFO [root] [test_login.py(test06_Passwrod_none:46] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-04 18:14:21,495 INFO [root] [test_login.py(test07_extra_params:50] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '5ae160c9-1795-4f9e-af41-45c956339d1f'}
+2019-12-04 18:14:21,583 INFO [root] [test_login.py(test08_less_params:54] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-04 18:14:34,935 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-04 18:14:35,202 INFO [root] [test_login.py(test01_login:26] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '92b0b69a-8888-4ffa-be3e-4ba0168636cd'}
+2019-12-04 18:14:35,291 INFO [root] [test_login.py(test02_Username_Error:30] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-04 18:14:35,379 INFO [root] [test_login.py(test03_password_Error:34] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-04 18:14:35,462 INFO [root] [test_login.py(test04_No_params:38] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-04 18:14:35,553 INFO [root] [test_login.py(test05_Username_none:42] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '6a99042c-2655-4ea4-a53b-9421e8f0aa79'}
+2019-12-04 18:14:35,647 INFO [root] [test_login.py(test06_Passwrod_none:46] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-04 18:14:35,741 INFO [root] [test_login.py(test07_extra_params:50] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'b993170e-d091-4acd-88e5-cc79a43365d7'}
+2019-12-04 18:14:35,830 INFO [root] [test_login.py(test08_less_params:54] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}

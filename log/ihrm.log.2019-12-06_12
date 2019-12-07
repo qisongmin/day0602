@@ -1,0 +1,250 @@
+2019-12-06 09:25:42,623 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 09:25:43,393 INFO [root] [test_login.py(test01_login:27] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '16d51715-1b3e-4da2-a8b0-dc3599a17bcc'}
+2019-12-06 09:25:43,393 INFO [root] [test_login.py(test01_login:32] - 保存登陆的token和content-type：{'Content-Type': 'application/json', 'Authorization': 'Bearer 16d51715-1b3e-4da2-a8b0-dc3599a17bcc'}
+2019-12-06 10:04:51,510 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 10:04:51,869 INFO [root] [test_login.py(test01_login:27] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '81f7098d-4e23-4544-8104-c8e53b32096b'}
+2019-12-06 10:04:51,869 INFO [root] [test_login.py(test01_login:33] - 保存登陆的token和content-type：{'Content-Type': 'application/json', 'Authorization': 'Bearer 81f7098d-4e23-4544-8104-c8e53b32096b'}
+2019-12-06 10:04:51,954 INFO [root] [test_login.py(test02_Username_Error:36] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:04:52,086 INFO [root] [test_login.py(test03_password_Error:40] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:04:52,176 INFO [root] [test_login.py(test04_No_params:44] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 10:04:52,266 INFO [root] [test_login.py(test05_Username_none:48] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '7b1e0f83-50de-4205-82db-3c9ef3c2eb3a'}
+2019-12-06 10:04:52,357 INFO [root] [test_login.py(test06_Passwrod_none:52] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:04:52,443 INFO [root] [test_login.py(test07_extra_params:56] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'd6fbeedc-07ba-4d6f-9ca0-ca972b93310e'}
+2019-12-06 10:04:52,530 INFO [root] [test_login.py(test08_less_params:60] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:07:31,056 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 10:08:05,577 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 10:08:35,977 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 10:09:28,409 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 10:09:28,728 INFO [root] [test_login.py(test01_login:27] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'a3c3aa02-faf0-4cb7-b2f9-4fcfa36abe5c'}
+2019-12-06 10:09:28,728 INFO [root] [test_login.py(test01_login:33] - 保存登陆的token和content-type：{'Content-Type': 'application/json', 'Authorization': 'Bearer a3c3aa02-faf0-4cb7-b2f9-4fcfa36abe5c'}
+2019-12-06 10:09:28,815 INFO [root] [test_login.py(test02_Username_Error:36] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:09:28,910 INFO [root] [test_login.py(test03_password_Error:40] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:09:28,992 INFO [root] [test_login.py(test04_No_params:44] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 10:09:29,077 INFO [root] [test_login.py(test05_Username_none:48] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'bdb80030-d0f3-41d4-8694-36196dd34b0e'}
+2019-12-06 10:09:29,163 INFO [root] [test_login.py(test06_Passwrod_none:52] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:09:29,249 INFO [root] [test_login.py(test07_extra_params:56] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '0dbb1579-c012-4d03-acd2-9e77c5c45553'}
+2019-12-06 10:09:29,335 INFO [root] [test_login.py(test08_less_params:60] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:19:14,535 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 10:19:14,975 INFO [root] [test_login.py(test01_login:27] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'abb297fc-7ceb-4026-90a6-054bc639ea72'}
+2019-12-06 10:19:14,975 INFO [root] [test_login.py(test01_login:33] - 保存登陆的token和content-type：{'Content-Type': 'application/json', 'Authorization': 'Bearer abb297fc-7ceb-4026-90a6-054bc639ea72'}
+2019-12-06 10:19:15,070 INFO [root] [test_login.py(test02_Username_Error:36] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:19:15,159 INFO [root] [test_login.py(test03_password_Error:40] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:19:15,250 INFO [root] [test_login.py(test04_No_params:44] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 10:19:15,346 INFO [root] [test_login.py(test05_Username_none:48] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '22767ec9-8db9-4e3c-b6bc-6b7d34b1310e'}
+2019-12-06 10:19:15,444 INFO [root] [test_login.py(test06_Passwrod_none:52] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:19:15,544 INFO [root] [test_login.py(test07_extra_params:56] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'e5a610da-e3cc-4db7-877e-fd159ebc90e3'}
+2019-12-06 10:19:15,664 INFO [root] [test_login.py(test08_less_params:60] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:19:15,772 INFO [root] [test_ihrm_emp.py(test01_Add_Emp:30] - 新添加的员工的id为：<class 'api.emp_api.EmpAPI'>
+2019-12-06 10:20:32,669 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 10:20:32,965 INFO [root] [test_login.py(test01_login:27] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '53bbdccb-7469-4ec9-a922-7e172b9ec25c'}
+2019-12-06 10:20:32,965 INFO [root] [test_login.py(test01_login:33] - 保存登陆的token和content-type：{'Content-Type': 'application/json', 'Authorization': 'Bearer 53bbdccb-7469-4ec9-a922-7e172b9ec25c'}
+2019-12-06 10:20:33,057 INFO [root] [test_login.py(test02_Username_Error:36] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:20:33,144 INFO [root] [test_login.py(test03_password_Error:40] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:20:33,229 INFO [root] [test_login.py(test04_No_params:44] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 10:20:33,322 INFO [root] [test_login.py(test05_Username_none:48] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '3c5c77b9-0839-44e1-8340-7646ed891a16'}
+2019-12-06 10:20:33,404 INFO [root] [test_login.py(test06_Passwrod_none:52] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:20:33,489 INFO [root] [test_login.py(test07_extra_params:56] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '6d33cf54-b01f-406d-9b2a-2bb2517bac11'}
+2019-12-06 10:20:33,570 INFO [root] [test_login.py(test08_less_params:60] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:23:58,273 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 10:23:58,652 INFO [root] [test_login.py(test01_login:27] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '91e0727e-7d92-4058-b3f8-fa6ebea1f980'}
+2019-12-06 10:23:58,652 INFO [root] [test_login.py(test01_login:33] - 保存登陆的token和content-type：{'Content-Type': 'application/json', 'Authorization': 'Bearer 91e0727e-7d92-4058-b3f8-fa6ebea1f980'}
+2019-12-06 10:23:58,739 INFO [root] [test_login.py(test02_Username_Error:36] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:23:58,825 INFO [root] [test_login.py(test03_password_Error:40] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:23:58,909 INFO [root] [test_login.py(test04_No_params:44] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 10:23:58,995 INFO [root] [test_login.py(test05_Username_none:48] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '9bc9b69d-2cc2-42f7-a990-1a106910f11f'}
+2019-12-06 10:23:59,084 INFO [root] [test_login.py(test06_Passwrod_none:52] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:23:59,171 INFO [root] [test_login.py(test07_extra_params:56] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '8513a686-54ed-4cf7-b563-db8f0d933402'}
+2019-12-06 10:23:59,254 INFO [root] [test_login.py(test08_less_params:60] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:24:09,006 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 10:24:40,316 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 10:24:40,592 INFO [root] [test_login.py(test01_login:27] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '44faa612-c9b9-4e65-9d1b-396ae9a8f325'}
+2019-12-06 10:24:40,592 INFO [root] [test_login.py(test01_login:33] - 保存登陆的token和content-type：{'Content-Type': 'application/json', 'Authorization': 'Bearer 44faa612-c9b9-4e65-9d1b-396ae9a8f325'}
+2019-12-06 10:24:40,676 INFO [root] [test_login.py(test02_Username_Error:36] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:24:40,759 INFO [root] [test_login.py(test03_password_Error:40] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:24:40,852 INFO [root] [test_login.py(test04_No_params:44] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 10:24:40,940 INFO [root] [test_login.py(test05_Username_none:48] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'aa8737d7-34a3-4033-b16a-ff84ca9d750f'}
+2019-12-06 10:24:41,035 INFO [root] [test_login.py(test06_Passwrod_none:52] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:24:41,126 INFO [root] [test_login.py(test07_extra_params:56] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '94781564-5086-435c-9df1-385ea5842f6e'}
+2019-12-06 10:24:41,219 INFO [root] [test_login.py(test08_less_params:60] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:25:54,428 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 10:25:54,707 INFO [root] [test_login.py(test01_login:27] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '5bac6e37-a86e-438f-b204-c1c31aad1e9d'}
+2019-12-06 10:25:54,708 INFO [root] [test_login.py(test01_login:33] - 保存登陆的token和content-type：{'Content-Type': 'application/json', 'Authorization': 'Bearer 5bac6e37-a86e-438f-b204-c1c31aad1e9d'}
+2019-12-06 10:25:54,789 INFO [root] [test_login.py(test02_Username_Error:36] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:25:54,871 INFO [root] [test_login.py(test03_password_Error:40] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:25:54,961 INFO [root] [test_login.py(test04_No_params:44] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 10:25:55,044 INFO [root] [test_login.py(test05_Username_none:48] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '7a702e6f-0721-47d9-96dc-3a3dd2a3e09e'}
+2019-12-06 10:25:55,135 INFO [root] [test_login.py(test06_Passwrod_none:52] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:25:55,247 INFO [root] [test_login.py(test07_extra_params:56] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '749fadcf-f5e3-4f65-aebe-6cb6f554f8ca'}
+2019-12-06 10:25:55,343 INFO [root] [test_login.py(test08_less_params:60] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:25:55,442 INFO [root] [test_ihrm_emp.py(test01_Add_Emp:30] - 新添加的员工的id为：1202776164858679296
+2019-12-06 10:28:25,148 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 10:28:25,413 INFO [root] [test_login.py(test01_login:27] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '76156fe4-33f1-4f7f-b919-d5603d1f4dad'}
+2019-12-06 10:28:25,413 INFO [root] [test_login.py(test01_login:33] - 保存登陆的token和content-type：{'Content-Type': 'application/json', 'Authorization': 'Bearer 76156fe4-33f1-4f7f-b919-d5603d1f4dad'}
+2019-12-06 10:28:25,501 INFO [root] [test_login.py(test02_Username_Error:36] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:28:25,588 INFO [root] [test_login.py(test03_password_Error:40] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:28:25,678 INFO [root] [test_login.py(test04_No_params:44] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 10:28:25,762 INFO [root] [test_login.py(test05_Username_none:48] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'd241dd27-b5d0-46ca-9599-22f8a9253ccf'}
+2019-12-06 10:28:25,844 INFO [root] [test_login.py(test06_Passwrod_none:52] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:28:25,937 INFO [root] [test_login.py(test07_extra_params:56] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'c642a2df-cbe3-4c44-8467-26bcdafb77fc'}
+2019-12-06 10:28:26,028 INFO [root] [test_login.py(test08_less_params:60] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:28:58,399 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 10:28:58,676 INFO [root] [test_login.py(test01_login:27] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '83bb3252-98a2-4513-b3a3-1f7e9e8298a9'}
+2019-12-06 10:28:58,676 INFO [root] [test_login.py(test01_login:33] - 保存登陆的token和content-type：{'Content-Type': 'application/json', 'Authorization': 'Bearer 83bb3252-98a2-4513-b3a3-1f7e9e8298a9'}
+2019-12-06 10:28:58,762 INFO [root] [test_login.py(test02_Username_Error:36] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:28:58,846 INFO [root] [test_login.py(test03_password_Error:40] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:28:58,931 INFO [root] [test_login.py(test04_No_params:44] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 10:28:59,015 INFO [root] [test_login.py(test05_Username_none:48] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '07a6a907-5dad-4cf6-8078-0ecbd1e51b74'}
+2019-12-06 10:28:59,103 INFO [root] [test_login.py(test06_Passwrod_none:52] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:28:59,190 INFO [root] [test_login.py(test07_extra_params:56] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'beaaea83-aa9d-4c25-b8e5-fe88ce83597f'}
+2019-12-06 10:28:59,275 INFO [root] [test_login.py(test08_less_params:60] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:30:21,262 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 10:30:21,539 INFO [root] [test_login.py(test01_login:27] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '6137e6da-3dda-4eab-a157-f3ab849569bb'}
+2019-12-06 10:30:21,540 INFO [root] [test_login.py(test01_login:33] - 保存登陆的token和content-type：{'Content-Type': 'application/json', 'Authorization': 'Bearer 6137e6da-3dda-4eab-a157-f3ab849569bb'}
+2019-12-06 10:30:21,625 INFO [root] [test_login.py(test02_Username_Error:36] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:30:21,709 INFO [root] [test_login.py(test03_password_Error:40] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:30:21,799 INFO [root] [test_login.py(test04_No_params:44] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 10:30:21,883 INFO [root] [test_login.py(test05_Username_none:48] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'd63f5247-5bba-4eed-9ff4-c57e0a9fd7da'}
+2019-12-06 10:30:21,968 INFO [root] [test_login.py(test06_Passwrod_none:52] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:30:22,054 INFO [root] [test_login.py(test07_extra_params:56] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '550915d2-0e25-49bb-a7be-74e55d705270'}
+2019-12-06 10:30:22,137 INFO [root] [test_login.py(test08_less_params:60] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:30:22,225 INFO [root] [test_ihrm_emp.py(test01_Add_Emp:28] - 新添加的员工的id为：1202777283840266240
+2019-12-06 10:51:46,637 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 10:51:46,978 INFO [root] [test_login.py(test01_login:27] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'dbfe530a-a146-46c0-a298-5529a60c66d2'}
+2019-12-06 10:51:46,978 INFO [root] [test_login.py(test01_login:33] - 保存登陆的token和content-type：{'Content-Type': 'application/json', 'Authorization': 'Bearer dbfe530a-a146-46c0-a298-5529a60c66d2'}
+2019-12-06 10:51:47,061 INFO [root] [test_login.py(test02_Username_Error:36] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:51:47,143 INFO [root] [test_login.py(test03_password_Error:40] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:51:47,224 INFO [root] [test_login.py(test04_No_params:44] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 10:51:47,308 INFO [root] [test_login.py(test05_Username_none:48] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '54d4cc74-9fcc-4b2e-aaa6-9070cd65b6ec'}
+2019-12-06 10:51:47,393 INFO [root] [test_login.py(test06_Passwrod_none:52] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:51:47,486 INFO [root] [test_login.py(test07_extra_params:56] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '79921d19-5fc1-464f-8849-7c118137cf82'}
+2019-12-06 10:51:47,566 INFO [root] [test_login.py(test08_less_params:60] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:51:47,751 INFO [root] [test_ihrm_emp.py(test02_query_emp:31] - 查询员工接口返回的数据：<Response [200]>
+2019-12-06 10:52:45,547 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 10:52:45,829 INFO [root] [test_login.py(test01_login:27] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '71d9cb96-f44a-46ca-aaad-f73e7892cad7'}
+2019-12-06 10:52:45,829 INFO [root] [test_login.py(test01_login:33] - 保存登陆的token和content-type：{'Content-Type': 'application/json', 'Authorization': 'Bearer 71d9cb96-f44a-46ca-aaad-f73e7892cad7'}
+2019-12-06 10:52:45,916 INFO [root] [test_login.py(test02_Username_Error:36] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:52:46,008 INFO [root] [test_login.py(test03_password_Error:40] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:52:46,093 INFO [root] [test_login.py(test04_No_params:44] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 10:52:46,182 INFO [root] [test_login.py(test05_Username_none:48] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '5e566891-f552-4d6f-b741-ab4441ff395a'}
+2019-12-06 10:52:46,268 INFO [root] [test_login.py(test06_Passwrod_none:52] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:52:46,366 INFO [root] [test_login.py(test07_extra_params:56] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'c64c2f18-ed38-4add-9d03-310d8e0f2bab'}
+2019-12-06 10:52:46,456 INFO [root] [test_login.py(test08_less_params:60] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:52:46,548 INFO [root] [test_ihrm_emp.py(test01_Add_Emp:28] - 新添加的员工的id为：1202782922415099904
+2019-12-06 10:52:46,643 INFO [root] [test_ihrm_emp.py(test02_query_emp:31] - 查询员工接口返回的数据：<Response [200]>
+2019-12-06 10:53:47,815 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 10:53:48,112 INFO [root] [test_login.py(test01_login:27] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'ef4bef20-5ad7-4dd2-9039-06782270ce93'}
+2019-12-06 10:53:48,112 INFO [root] [test_login.py(test01_login:33] - 保存登陆的token和content-type：{'Content-Type': 'application/json', 'Authorization': 'Bearer ef4bef20-5ad7-4dd2-9039-06782270ce93'}
+2019-12-06 10:53:48,197 INFO [root] [test_login.py(test02_Username_Error:36] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:53:48,280 INFO [root] [test_login.py(test03_password_Error:40] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:53:48,364 INFO [root] [test_login.py(test04_No_params:44] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 10:53:48,451 INFO [root] [test_login.py(test05_Username_none:48] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '83d58706-cc65-4d71-a5e6-893f22910c52'}
+2019-12-06 10:53:48,536 INFO [root] [test_login.py(test06_Passwrod_none:52] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:53:48,632 INFO [root] [test_login.py(test07_extra_params:56] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '976928e1-1a43-47ea-8423-a92dc07e8c34'}
+2019-12-06 10:53:48,722 INFO [root] [test_login.py(test08_less_params:60] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 10:53:48,812 INFO [root] [test_ihrm_emp.py(test01_Add_Emp:28] - 新添加的员工的id为：1202783183573438464
+2019-12-06 10:53:48,896 INFO [root] [test_ihrm_emp.py(test02_query_emp:31] - 查询员工接口返回的数据：<Response [200]>
+2019-12-06 11:14:51,418 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 11:14:51,716 INFO [root] [test_login.py(test01_login:27] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '6647b9c7-5cce-4db3-8681-af34c1c80edc'}
+2019-12-06 11:14:51,717 INFO [root] [test_login.py(test01_login:36] - 保存登陆的token和content-type：{'Content-Type': 'application/json', 'Authorization': 'Bearer 6647b9c7-5cce-4db3-8681-af34c1c80edc'}
+2019-12-06 11:14:51,808 INFO [root] [test_login.py(test02_Username_Error:39] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 11:14:51,894 INFO [root] [test_login.py(test03_password_Error:43] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 11:14:51,978 INFO [root] [test_login.py(test04_No_params:47] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 11:14:52,081 INFO [root] [test_login.py(test05_Username_none:51] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '398add03-f662-4bab-87b0-b3caa9671c73'}
+2019-12-06 11:14:52,166 INFO [root] [test_login.py(test06_Passwrod_none:55] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 11:14:52,250 INFO [root] [test_login.py(test07_extra_params:59] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'b71e23b5-9c5d-4263-ba8e-09dc3d7bd5f9'}
+2019-12-06 11:14:52,333 INFO [root] [test_login.py(test08_less_params:63] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 11:14:52,513 INFO [root] [test_ihrm_emp.py(test02_query_emp:34] - 查询员工接口返回的数据：<Response [200]>
+2019-12-06 11:15:53,092 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 11:15:53,386 INFO [root] [test_login.py(test01_login:27] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'cc8f2892-b03f-448a-bc5a-0896736b001a'}
+2019-12-06 11:15:53,387 INFO [root] [test_login.py(test01_login:36] - 保存登陆的token和content-type：{'Content-Type': 'application/json', 'Authorization': 'Bearer cc8f2892-b03f-448a-bc5a-0896736b001a'}
+2019-12-06 11:15:53,471 INFO [root] [test_login.py(test02_Username_Error:39] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 11:15:53,557 INFO [root] [test_login.py(test03_password_Error:43] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 11:15:53,640 INFO [root] [test_login.py(test04_No_params:47] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 11:15:53,726 INFO [root] [test_login.py(test05_Username_none:51] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'd0b70a58-d443-4e13-949e-27b3cfcabaa2'}
+2019-12-06 11:15:53,819 INFO [root] [test_login.py(test06_Passwrod_none:55] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 11:15:53,922 INFO [root] [test_login.py(test07_extra_params:59] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '5fc740b4-a60e-43a6-bcdd-14717bb11fbd'}
+2019-12-06 11:15:54,007 INFO [root] [test_login.py(test08_less_params:63] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 11:15:54,103 INFO [root] [test_ihrm_emp.py(test01_Add_Emp:30] - 新添加的员工的id为：1202788742297112576
+2019-12-06 11:15:54,192 INFO [root] [test_ihrm_emp.py(test02_query_emp:34] - 查询员工接口返回的数据：<Response [200]>
+2019-12-06 11:22:05,623 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 11:22:05,910 INFO [root] [test_login.py(test01_login:27] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '34ff6af0-f94e-47ca-95cd-4dcd77e65ede'}
+2019-12-06 11:22:05,910 INFO [root] [test_login.py(test01_login:36] - 保存登陆的token和content-type：{'Content-Type': 'application/json', 'Authorization': 'Bearer 34ff6af0-f94e-47ca-95cd-4dcd77e65ede'}
+2019-12-06 11:22:05,995 INFO [root] [test_login.py(test02_Username_Error:39] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 11:22:06,078 INFO [root] [test_login.py(test03_password_Error:43] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 11:22:06,161 INFO [root] [test_login.py(test04_No_params:47] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 11:22:06,246 INFO [root] [test_login.py(test05_Username_none:51] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'd0191b70-a062-43e1-908c-975ddd2ae966'}
+2019-12-06 11:22:06,336 INFO [root] [test_login.py(test06_Passwrod_none:55] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 11:22:06,432 INFO [root] [test_login.py(test07_extra_params:59] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'fb956a5e-c455-4953-8fa3-cc6190223601'}
+2019-12-06 11:22:06,515 INFO [root] [test_login.py(test08_less_params:63] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 11:22:06,694 INFO [root] [test_ihrm_emp.py(test02_query_emp:34] - 查询员工接口返回的数据：<Response [200]>
+2019-12-06 11:22:06,779 INFO [root] [test_ihrm_emp.py(test03_modify_emp:38] - 员工修改返回的数据：<Response [200]>
+2019-12-06 11:22:06,871 INFO [root] [test_ihrm_emp.py(test04_delete_emp:42] - 员工删除接口返回的数据：<Response [200]>
+2019-12-06 11:22:42,788 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 11:22:43,060 INFO [root] [test_login.py(test01_login:27] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '32e81eab-d58f-42ce-b191-9867a37ce4b8'}
+2019-12-06 11:22:43,060 INFO [root] [test_login.py(test01_login:36] - 保存登陆的token和content-type：{'Content-Type': 'application/json', 'Authorization': 'Bearer 32e81eab-d58f-42ce-b191-9867a37ce4b8'}
+2019-12-06 11:22:43,152 INFO [root] [test_login.py(test02_Username_Error:39] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 11:22:43,254 INFO [root] [test_login.py(test03_password_Error:43] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 11:22:43,341 INFO [root] [test_login.py(test04_No_params:47] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 11:22:43,427 INFO [root] [test_login.py(test05_Username_none:51] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '7effe7db-03aa-4ce2-ba19-c7dadff393ad'}
+2019-12-06 11:22:43,513 INFO [root] [test_login.py(test06_Passwrod_none:55] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 11:22:43,600 INFO [root] [test_login.py(test07_extra_params:59] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'de3f06e2-5b5b-4a0a-9ac7-e5ddb8130d86'}
+2019-12-06 11:22:43,693 INFO [root] [test_login.py(test08_less_params:63] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 11:22:43,785 INFO [root] [test_ihrm_emp.py(test01_Add_Emp:30] - 新添加的员工的id为：1202790460669906944
+2019-12-06 11:22:43,876 INFO [root] [test_ihrm_emp.py(test02_query_emp:34] - 查询员工接口返回的数据：<Response [200]>
+2019-12-06 11:22:43,962 INFO [root] [test_ihrm_emp.py(test03_modify_emp:38] - 员工修改返回的数据：<Response [200]>
+2019-12-06 11:22:44,053 INFO [root] [test_ihrm_emp.py(test04_delete_emp:42] - 员工删除接口返回的数据：<Response [200]>
+2019-12-06 11:24:14,563 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 11:24:14,876 INFO [root] [test_login.py(test01_login:27] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '42f94381-7951-4658-84fc-5c39825cd7fe'}
+2019-12-06 11:24:14,877 INFO [root] [test_login.py(test01_login:36] - 保存登陆的token和content-type：{'Content-Type': 'application/json', 'Authorization': 'Bearer 42f94381-7951-4658-84fc-5c39825cd7fe'}
+2019-12-06 11:24:14,961 INFO [root] [test_login.py(test02_Username_Error:39] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 11:24:15,054 INFO [root] [test_login.py(test03_password_Error:43] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 11:24:15,136 INFO [root] [test_login.py(test04_No_params:47] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 11:24:15,230 INFO [root] [test_login.py(test05_Username_none:51] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'e46ac369-6fa8-4787-855d-510ee883ce8c'}
+2019-12-06 11:24:15,323 INFO [root] [test_login.py(test06_Passwrod_none:55] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 11:24:15,407 INFO [root] [test_login.py(test07_extra_params:59] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '912ce99d-47d7-46d4-a968-e22e9c7a4a9d'}
+2019-12-06 11:24:15,490 INFO [root] [test_login.py(test08_less_params:63] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 11:24:15,670 INFO [root] [test_ihrm_emp.py(test02_query_emp:34] - 查询员工接口返回的数据：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 11:24:15,754 INFO [root] [test_ihrm_emp.py(test03_modify_emp:38] - 员工修改返回的数据：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 11:24:15,837 INFO [root] [test_ihrm_emp.py(test04_delete_emp:42] - 员工删除接口返回的数据：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 11:24:49,263 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 11:24:49,535 INFO [root] [test_login.py(test01_login:27] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '798fa516-6ce3-472a-befa-1bdfa6f53827'}
+2019-12-06 11:24:49,535 INFO [root] [test_login.py(test01_login:36] - 保存登陆的token和content-type：{'Content-Type': 'application/json', 'Authorization': 'Bearer 798fa516-6ce3-472a-befa-1bdfa6f53827'}
+2019-12-06 11:24:49,628 INFO [root] [test_login.py(test02_Username_Error:39] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 11:24:49,715 INFO [root] [test_login.py(test03_password_Error:43] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 11:24:49,795 INFO [root] [test_login.py(test04_No_params:47] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 11:24:49,887 INFO [root] [test_login.py(test05_Username_none:51] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'c5329ee8-1e1b-4e56-841d-5718e9637f4f'}
+2019-12-06 11:24:49,978 INFO [root] [test_login.py(test06_Passwrod_none:55] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 11:24:50,070 INFO [root] [test_login.py(test07_extra_params:59] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '62de039d-c900-48f1-ba2a-fe62f3aa2331'}
+2019-12-06 11:24:50,157 INFO [root] [test_login.py(test08_less_params:63] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 11:24:50,247 INFO [root] [test_ihrm_emp.py(test01_Add_Emp:30] - 新添加的员工的id为：1202790991106756608
+2019-12-06 11:24:50,334 INFO [root] [test_ihrm_emp.py(test02_query_emp:34] - 查询员工接口返回的数据：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202790991106756608', 'mobile': '18898989988', 'username': '葫芦娃水0219', 'password': 'a9306f54473e840d6824a4f27c91d392', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1066240656856453120', 'timeOfEntry': '2019-07-01T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': '1322131', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2019-11-30T00:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '开发部', 'roleIds': [], 'staffPhoto': None}}
+2019-12-06 11:24:50,425 INFO [root] [test_ihrm_emp.py(test03_modify_emp:38] - 员工修改返回的数据：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202790991106756608'}}
+2019-12-06 11:24:50,513 INFO [root] [test_ihrm_emp.py(test04_delete_emp:42] - 员工删除接口返回的数据：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2019-12-06 12:16:59,508 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 12:16:59,783 INFO [root] [test_login.py(test01_login:27] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '2e077b05-0e84-416b-b1ee-69c94d4ddb5c'}
+2019-12-06 12:16:59,783 INFO [root] [test_login.py(test01_login:36] - 保存登陆的token和content-type：{'Content-Type': 'application/json', 'Authorization': 'Bearer 2e077b05-0e84-416b-b1ee-69c94d4ddb5c'}
+2019-12-06 12:16:59,876 INFO [root] [test_login.py(test02_Username_Error:39] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 12:16:59,970 INFO [root] [test_login.py(test03_password_Error:43] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 12:17:00,052 INFO [root] [test_login.py(test04_No_params:47] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 12:17:00,136 INFO [root] [test_login.py(test05_Username_none:51] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'c2692d4c-52cf-45bf-970b-b102406c0f06'}
+2019-12-06 12:17:00,219 INFO [root] [test_login.py(test06_Passwrod_none:55] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 12:17:00,309 INFO [root] [test_login.py(test07_extra_params:59] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'ff57d85d-96bd-4914-b8bd-fa4238eea554'}
+2019-12-06 12:17:00,407 INFO [root] [test_login.py(test08_less_params:63] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 12:17:00,496 INFO [root] [test_ihrm_emp.py(test01_Add_Emp:34] - 新添加的员工的id为：1202804120490430464
+2019-12-06 12:17:00,583 INFO [root] [test_ihrm_emp.py(test02_query_emp:38] - 查询员工接口返回的数据：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202804120490430464', 'mobile': '18898989988', 'username': '葫芦娃水0219', 'password': 'a9306f54473e840d6824a4f27c91d392', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1066240656856453120', 'timeOfEntry': '2019-07-01T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': '1322131', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2019-11-30T00:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '开发部', 'roleIds': [], 'staffPhoto': None}}
+2019-12-06 12:17:00,680 INFO [root] [test_ihrm_emp.py(test03_modify_emp:42] - 员工修改返回的数据：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202804120490430464'}}
+2019-12-06 12:17:01,147 INFO [root] [test_ihrm_emp.py(test04_delete_emp:67] - 员工删除接口返回的数据：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2019-12-06 12:19:15,074 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 12:19:15,356 INFO [root] [test_login.py(test01_login:27] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '5b1c1fd5-2c55-4935-9bda-7cd4136e55e3'}
+2019-12-06 12:19:15,356 INFO [root] [test_login.py(test01_login:36] - 保存登陆的token和content-type：{'Content-Type': 'application/json', 'Authorization': 'Bearer 5b1c1fd5-2c55-4935-9bda-7cd4136e55e3'}
+2019-12-06 12:19:15,440 INFO [root] [test_login.py(test02_Username_Error:39] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 12:19:15,523 INFO [root] [test_login.py(test03_password_Error:43] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 12:19:15,605 INFO [root] [test_login.py(test04_No_params:47] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 12:19:15,696 INFO [root] [test_login.py(test05_Username_none:51] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'ce8edc06-f418-4cc2-b7e8-2fc6d45b83ad'}
+2019-12-06 12:19:15,783 INFO [root] [test_login.py(test06_Passwrod_none:55] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 12:19:15,876 INFO [root] [test_login.py(test07_extra_params:59] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '0012bf00-8f9f-4cc6-9d9b-493b00e7d105'}
+2019-12-06 12:19:15,964 INFO [root] [test_login.py(test08_less_params:63] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 12:19:16,053 INFO [root] [test_ihrm_emp.py(test01_Add_Emp:34] - 新添加的员工的id为：1202804689061892096
+2019-12-06 12:19:16,150 INFO [root] [test_ihrm_emp.py(test02_query_emp:38] - 查询员工接口返回的数据：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202804689061892096', 'mobile': '18898989988', 'username': '葫芦娃水0219', 'password': 'a9306f54473e840d6824a4f27c91d392', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1066240656856453120', 'timeOfEntry': '2019-07-01T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': '1322131', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2019-11-30T00:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '开发部', 'roleIds': [], 'staffPhoto': None}}
+2019-12-06 12:19:16,247 INFO [root] [test_ihrm_emp.py(test03_modify_emp:42] - 员工修改返回的数据：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202804689061892096'}}
+2019-12-06 12:19:16,673 INFO [root] [test_ihrm_emp.py(test04_delete_emp:67] - -------员工删除接口返回的数据：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}

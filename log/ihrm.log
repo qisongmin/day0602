@@ -1,0 +1,536 @@
+2019-12-06 19:04:41,404 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 19:04:41,794 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:04:41,887 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '2341ac5c-a2e3-4d52-84a3-c5629d88241d'}
+2019-12-06 19:04:41,887 INFO [root] [test_login_parameterized.py(test01_login:40] - 保存登陆的token和content-type：{'Content-Type': 'application/json', 'Authorization': 'Bearer 2341ac5c-a2e3-4d52-84a3-c5629d88241d'}
+2019-12-06 19:04:41,887 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000033
+2019-12-06 19:04:41,965 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:04:41,965 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:04:42,059 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '54a83fe3-90da-4896-9bd4-ce9bce31288a'}
+2019-12-06 19:04:42,075 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:04:42,168 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '189c1f62-b390-4c1f-a0ca-3f97e8b03a12'}
+2019-12-06 19:04:42,168 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:04:42,262 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '1a1e3495-685c-4107-baf8-dfe9378bb767'}
+2019-12-06 19:04:42,355 INFO [root] [test_ihrm_emp_parameterized.py(test01_Add_Emp:31] - 添加员工接口返回数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 19:04:42,449 INFO [root] [test_ihrm_emp_parameterized.py(test02_query_emp:42] - 查询员工接口返回的数据：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 19:04:42,558 INFO [root] [test_ihrm_emp_parameterized.py(test03_modify_emp:48] - 员工修改返回的数据：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 19:04:42,652 INFO [root] [test_ihrm_emp_parameterized.py(test04_delete_emp:73] - 员工删除接口返回的数据：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 19:05:04,946 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 19:05:05,695 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:05:05,820 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'e5dce643-debc-4c04-9721-b33f91bd6cd3'}
+2019-12-06 19:05:05,820 INFO [root] [test_login_parameterized.py(test01_login:40] - 保存登陆的token和content-type：{'Content-Type': 'application/json', 'Authorization': 'Bearer e5dce643-debc-4c04-9721-b33f91bd6cd3'}
+2019-12-06 19:05:05,820 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000033
+2019-12-06 19:05:06,163 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:05:06,179 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:05:06,272 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'b96ef834-c1df-4d17-9c30-503b7f1a307b'}
+2019-12-06 19:05:06,272 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:05:06,366 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '4c2d53be-97cc-4904-8003-fd9f24252346'}
+2019-12-06 19:05:06,381 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:05:06,459 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '199495c7-9e6a-491c-bcdc-8c3b88b77196'}
+2019-12-06 19:06:19,864 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 19:06:20,378 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:06:20,488 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'dc5ff85a-056e-45fd-88ae-a7808666e8f4'}
+2019-12-06 19:06:20,488 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000033
+2019-12-06 19:06:20,566 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:06:20,581 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:06:20,675 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '295615c2-d703-4a6d-8567-599ec6d75691'}
+2019-12-06 19:06:20,675 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:06:20,753 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'a8987365-7306-451e-8765-5e37b4a50211'}
+2019-12-06 19:06:20,768 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:06:20,846 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'df6140b2-ec17-4ef9-99a0-927672c346bb'}
+2019-12-06 19:07:53,464 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 19:07:53,885 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:07:53,979 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'fdf8ee61-dc7f-4beb-b61e-60fd47bce41c'}
+2019-12-06 19:07:53,979 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 19:07:54,088 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:07:54,088 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:07:54,181 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:07:54,181 INFO [root] [login_api.py(login:13] - 登录手机号码：
+2019-12-06 19:07:54,275 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'ec3c0d49-de09-455b-9d2f-e8a3cf9345f1'}
+2019-12-06 19:07:54,291 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:07:54,384 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:09:13,992 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 19:09:14,382 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:09:14,476 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'b54af7b7-855c-4c81-88d0-695b5231d135'}
+2019-12-06 19:09:14,476 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 19:09:14,554 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:09:14,554 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:09:14,647 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:09:14,647 INFO [root] [login_api.py(login:13] - 登录手机号码：
+2019-12-06 19:09:14,725 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:09:14,725 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:09:14,819 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:10:16,799 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 19:10:17,080 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:10:17,173 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'b12aec78-00fc-42d2-a655-48e0c865ede9'}
+2019-12-06 19:10:17,173 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 19:10:17,251 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:10:17,251 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:10:17,376 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:10:17,376 INFO [root] [login_api.py(login:13] - 登录手机号码：
+2019-12-06 19:10:17,470 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:10:17,470 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:10:17,563 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:11:34,768 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 19:11:35,111 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:11:35,205 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '2891317c-7747-47d4-81d7-e21cb71395ca'}
+2019-12-06 19:11:35,205 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 19:11:35,314 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:11:35,314 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:11:35,392 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:11:35,392 INFO [root] [login_api.py(login:13] - 登录手机号码：
+2019-12-06 19:11:35,470 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:11:35,485 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:11:35,579 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:11:35,657 INFO [root] [test_login_parameterized.py(test02_No_params:44] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 19:11:35,766 INFO [root] [test_login_parameterized.py(test03_extra_params:49] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'b0f4954a-297a-4acc-9ef5-4cea39ecd05c'}
+2019-12-06 19:11:35,860 INFO [root] [test_login_parameterized.py(test04_less_params:54] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:13:19,663 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 19:13:20,006 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:13:20,116 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'c67ca36f-70ff-4eaf-9158-19d1a6323971'}
+2019-12-06 19:13:20,116 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 19:13:20,194 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:13:20,209 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:13:20,287 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:13:20,287 INFO [root] [login_api.py(login:13] - 登录手机号码：
+2019-12-06 19:13:20,381 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:13:20,381 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:13:20,459 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:13:20,552 INFO [root] [test_login_parameterized.py(test02_No_params:44] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 19:13:20,646 INFO [root] [test_login_parameterized.py(test03_extra_params:49] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '9b058d71-7735-4c1b-af1f-2273bbf1cbaa'}
+2019-12-06 19:13:20,740 INFO [root] [test_login_parameterized.py(test04_less_params:54] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:13:56,511 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 19:13:56,838 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:13:56,932 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '0d24aa4b-a8b2-4027-93ec-e4792c02e52c'}
+2019-12-06 19:13:56,932 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 19:13:57,025 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:13:57,041 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:13:57,119 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:13:57,119 INFO [root] [login_api.py(login:13] - 登录手机号码：
+2019-12-06 19:13:57,213 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:13:57,213 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:13:57,306 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:13:57,400 INFO [root] [test_login_parameterized.py(test02_No_params:44] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 19:13:57,493 INFO [root] [test_login_parameterized.py(test03_extra_params:49] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'd107d452-b013-4600-87a3-0a7aaee3abab'}
+2019-12-06 19:13:57,571 INFO [root] [test_login_parameterized.py(test04_less_params:54] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:14:59,581 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 19:14:59,862 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:14:59,971 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '8f9a6bb9-9526-48a6-b10f-bf6b146b943a'}
+2019-12-06 19:14:59,971 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 19:15:00,065 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:15:00,065 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:15:00,159 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:15:00,159 INFO [root] [login_api.py(login:13] - 登录手机号码：
+2019-12-06 19:15:00,252 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:15:00,252 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:15:00,346 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:15:00,439 INFO [root] [test_login_parameterized.py(test02_No_params:44] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 19:15:00,533 INFO [root] [test_login_parameterized.py(test03_extra_params:49] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '3bbbc8d1-288f-4713-9cc9-8ca7df079c41'}
+2019-12-06 19:15:00,627 INFO [root] [test_login_parameterized.py(test04_less_params:54] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:16:01,766 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 19:20:52,248 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 19:23:12,777 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 19:31:26,390 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 19:32:01,193 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 19:33:35,491 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 19:33:35,740 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:33:35,849 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'a9fc2ba2-2529-4084-9335-ec0e553dcd55'}
+2019-12-06 19:33:35,849 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 19:33:35,943 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:33:35,943 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:33:36,037 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:33:36,037 INFO [root] [login_api.py(login:13] - 登录手机号码：
+2019-12-06 19:33:36,146 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:33:36,146 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:33:36,239 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:33:36,349 INFO [root] [test_login_parameterized.py(test02_No_params:44] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 19:33:36,442 INFO [root] [test_login_parameterized.py(test03_extra_params:49] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '588407ea-4d3d-45d5-b22d-126e9bba6303'}
+2019-12-06 19:33:36,536 INFO [root] [test_login_parameterized.py(test04_less_params:54] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:51:50,880 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 19:51:51,223 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:51:51,317 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'bf575c3b-4922-4dda-bc76-1407b7185039'}
+2019-12-06 19:51:51,317 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 19:51:51,410 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:51:51,410 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:51:51,504 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:51:51,504 INFO [root] [login_api.py(login:13] - 登录手机号码：
+2019-12-06 19:51:51,582 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:51:51,582 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 19:51:51,676 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 19:51:51,769 INFO [root] [test_login_parameterized.py(test02_No_params:44] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 19:51:51,863 INFO [root] [test_login_parameterized.py(test03_extra_params:49] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '8b89d102-93a2-435d-87c2-20272c2ca64f'}
+2019-12-06 19:51:51,941 INFO [root] [test_login_parameterized.py(test04_less_params:54] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:02:25,382 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 20:02:25,570 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:02:25,663 INFO [root] [test_login.py(test01_login:27] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '914e5cac-20de-4162-a685-c729f840e730'}
+2019-12-06 20:02:25,663 INFO [root] [test_login.py(test01_login:36] - 保存登陆的token和content-type：{'Content-Type': 'application/json', 'Authorization': 'Bearer 914e5cac-20de-4162-a685-c729f840e730'}
+2019-12-06 20:02:25,663 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 20:02:25,741 INFO [root] [test_login.py(test02_Username_Error:39] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:02:25,757 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:02:25,866 INFO [root] [test_login.py(test03_password_Error:43] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:02:25,960 INFO [root] [test_login.py(test04_No_params:47] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 20:02:25,960 INFO [root] [login_api.py(login:13] - 登录手机号码：
+2019-12-06 20:02:26,053 INFO [root] [test_login.py(test05_Username_none:51] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '553a2c34-0b10-44ac-af10-101a64244298'}
+2019-12-06 20:02:26,100 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 20:02:26,178 INFO [root] [test_login.py(test06_Passwrod_none:55] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:02:26,272 INFO [root] [test_login.py(test07_extra_params:59] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '747995ad-6ba5-460f-a74f-e093f2c737dd'}
+2019-12-06 20:02:26,365 INFO [root] [test_login.py(test08_less_params:63] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:02:26,474 INFO [root] [test_ihrm_emp.py(test01_Add_Emp:34] - 新添加的员工的id为：1202921240930897920
+2019-12-06 20:02:26,552 INFO [root] [test_ihrm_emp.py(test02_query_emp:38] - 查询员工接口返回的数据：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202921240930897920', 'mobile': '18898989988', 'username': '葫芦娃水0220', 'password': 'a9306f54473e840d6824a4f27c91d392', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1066240656856453120', 'timeOfEntry': '2019-07-01T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': '1322131', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2019-11-30T00:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '开发部', 'roleIds': [], 'staffPhoto': None}}
+2019-12-06 20:02:26,646 INFO [root] [test_ihrm_emp.py(test03_modify_emp:42] - 员工修改返回的数据：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202921240930897920'}}
+2019-12-06 20:02:26,880 INFO [root] [test_ihrm_emp.py(test03_modify_emp:62] - ---------查询的数据库中员工id为1202921240930897920的username是：变形金刚
+2019-12-06 20:02:26,974 INFO [root] [test_ihrm_emp.py(test04_delete_emp:67] - 员工删除接口返回的数据：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2019-12-06 20:03:40,812 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 20:03:41,171 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:03:41,280 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '883a987b-9b80-4901-a2fc-de90af60fd85'}
+2019-12-06 20:03:41,280 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 20:03:41,358 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:03:41,358 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:03:41,468 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:03:41,468 INFO [root] [login_api.py(login:13] - 登录手机号码：
+2019-12-06 20:03:41,546 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:03:41,546 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:03:41,639 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:03:41,733 INFO [root] [test_login_parameterized.py(test02_No_params:44] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 20:03:41,811 INFO [root] [test_login_parameterized.py(test03_extra_params:49] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '4e4d0979-5a7c-4d25-93a4-0217450ae2f0'}
+2019-12-06 20:03:41,904 INFO [root] [test_login_parameterized.py(test04_less_params:54] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:11:13,956 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 20:11:14,238 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:11:14,331 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '77167e28-cbf7-4c93-bfb2-51c09a1e551d'}
+2019-12-06 20:11:14,331 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 20:11:14,425 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:11:14,425 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:11:14,503 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:11:14,503 INFO [root] [login_api.py(login:13] - 登录手机号码：
+2019-12-06 20:11:14,596 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:11:14,596 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:11:14,690 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:11:14,784 INFO [root] [test_login_parameterized.py(test02_No_params:44] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 20:11:14,877 INFO [root] [test_login_parameterized.py(test03_extra_params:49] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'b26e00bb-8f34-4ea6-9775-096f2221946c'}
+2019-12-06 20:11:14,971 INFO [root] [test_login_parameterized.py(test04_less_params:54] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:18:00,530 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 20:18:00,888 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:18:00,982 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '2b630ac0-5331-42f9-9e37-ebd0ab4377c6'}
+2019-12-06 20:18:00,982 INFO [root] [test_login_parameterized.py(test01_login:40] - 保存登陆的token和content-type：{'Content-Type': 'application/json', 'Authorization': 'Bearer 2b630ac0-5331-42f9-9e37-ebd0ab4377c6'}
+2019-12-06 20:18:00,982 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 20:18:01,060 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:18:01,076 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:18:01,154 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:18:01,154 INFO [root] [login_api.py(login:13] - 登录手机号码：
+2019-12-06 20:18:01,247 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:18:01,263 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:18:01,356 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:18:01,466 INFO [root] [test_login_parameterized.py(test02_No_params:44] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 20:18:01,559 INFO [root] [test_login_parameterized.py(test03_extra_params:49] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'f0e3a21c-48fe-4716-b701-162a323f8050'}
+2019-12-06 20:18:01,653 INFO [root] [test_login_parameterized.py(test04_less_params:54] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:23:37,965 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 20:23:38,277 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:23:38,386 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'c589b0dc-32a8-4204-a109-acfc0044271c'}
+2019-12-06 20:23:38,386 INFO [root] [test_login_parameterized.py(test01_login:40] - 保存登陆的token和content-type：{'Content-Type': 'application/json', 'Authorization': 'Bearer c589b0dc-32a8-4204-a109-acfc0044271c'}
+2019-12-06 20:23:38,386 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 20:23:38,480 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:23:38,480 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:23:38,558 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:23:38,558 INFO [root] [login_api.py(login:13] - 登录手机号码：
+2019-12-06 20:23:38,652 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:23:38,652 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:23:38,745 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:23:38,839 INFO [root] [test_login_parameterized.py(test02_No_params:44] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 20:23:38,917 INFO [root] [test_login_parameterized.py(test03_extra_params:49] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'ccc2e222-212e-48b1-9104-d9352466d7a8'}
+2019-12-06 20:23:39,010 INFO [root] [test_login_parameterized.py(test04_less_params:54] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:23:39,104 INFO [root] [test_ihrm_emp_parameterized.py(test01_Add_Emp:29] - 添加员工接口返回数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 20:23:39,198 INFO [root] [test_ihrm_emp_parameterized.py(test02_query_emp:40] - 查询员工接口返回的数据：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 20:23:39,291 INFO [root] [test_ihrm_emp_parameterized.py(test03_modify_emp:46] - 员工修改返回的数据：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 20:23:39,385 INFO [root] [test_ihrm_emp_parameterized.py(test04_delete_emp:71] - 员工删除接口返回的数据：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 20:24:08,620 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 20:24:08,963 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:24:09,057 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '6d4ce01b-eaac-4674-ae30-e924ff5eab59'}
+2019-12-06 20:24:09,057 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 20:24:09,151 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:24:09,151 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:24:09,244 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:24:09,244 INFO [root] [login_api.py(login:13] - 登录手机号码：
+2019-12-06 20:24:09,322 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:24:09,322 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:24:09,416 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:24:09,494 INFO [root] [test_login_parameterized.py(test02_No_params:44] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 20:24:09,587 INFO [root] [test_login_parameterized.py(test03_extra_params:49] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '580f9b46-8e2d-49f5-9d61-6765bb0a62f4'}
+2019-12-06 20:24:09,665 INFO [root] [test_login_parameterized.py(test04_less_params:54] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:25:58,461 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 20:25:58,789 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:25:58,883 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'ef0545ab-fd71-471e-9f83-8f497c811832'}
+2019-12-06 20:25:58,883 INFO [root] [test_login_parameterized.py(test01_login:40] - 保存登陆的token和content-type：{'Content-Type': 'application/json', 'Authorization': 'Bearer ef0545ab-fd71-471e-9f83-8f497c811832'}
+2019-12-06 20:25:58,883 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 20:25:58,992 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:25:59,007 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:25:59,085 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:25:59,085 INFO [root] [login_api.py(login:13] - 登录手机号码：
+2019-12-06 20:25:59,179 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:25:59,179 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:26:00,271 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:26:00,365 INFO [root] [test_login_parameterized.py(test02_No_params:44] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 20:26:00,458 INFO [root] [test_login_parameterized.py(test03_extra_params:49] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'bd19c76c-c0fc-43bd-a691-9d4d79503290'}
+2019-12-06 20:26:00,552 INFO [root] [test_login_parameterized.py(test04_less_params:54] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:26:02,049 INFO [root] [test_ihrm_emp_parameterized.py(test01_Add_Emp:29] - 添加员工接口返回数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 20:26:02,143 INFO [root] [test_ihrm_emp_parameterized.py(test02_query_emp:40] - 查询员工接口返回的数据：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 20:26:02,237 INFO [root] [test_ihrm_emp_parameterized.py(test03_modify_emp:46] - 员工修改返回的数据：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 20:26:02,330 INFO [root] [test_ihrm_emp_parameterized.py(test04_delete_emp:71] - 员工删除接口返回的数据：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 20:29:30,110 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 20:29:30,391 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:29:30,500 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '93abd745-28b5-4ffe-b9b3-517c321daea3'}
+2019-12-06 20:29:30,500 INFO [root] [test_login_parameterized.py(test01_login:40] - 保存登陆的token和content-type：{'Content-Type': 'application/json', 'Authorization': 'Bearer 93abd745-28b5-4ffe-b9b3-517c321daea3'}
+2019-12-06 20:29:30,500 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 20:29:30,594 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:29:30,594 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:29:30,687 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:29:30,687 INFO [root] [login_api.py(login:13] - 登录手机号码：
+2019-12-06 20:29:30,781 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:29:30,781 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:29:30,874 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:29:30,952 INFO [root] [test_login_parameterized.py(test02_No_params:44] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 20:29:31,046 INFO [root] [test_login_parameterized.py(test03_extra_params:49] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '4c28831e-12d3-4f8f-af4e-858b492cb241'}
+2019-12-06 20:29:31,140 INFO [root] [test_login_parameterized.py(test04_less_params:54] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:29:31,233 INFO [root] [test_ihrm_emp_parameterized.py(test01_Add_Emp:29] - 添加员工接口返回数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 20:29:31,327 INFO [root] [test_ihrm_emp_parameterized.py(test02_query_emp:40] - 查询员工接口返回的数据：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 20:29:31,420 INFO [root] [test_ihrm_emp_parameterized.py(test03_modify_emp:46] - 员工修改返回的数据：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 20:29:31,498 INFO [root] [test_ihrm_emp_parameterized.py(test04_delete_emp:71] - 员工删除接口返回的数据：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 20:30:25,745 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 20:30:26,041 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:30:26,135 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'c7d416d0-d614-45ea-89b8-4fb89e8f1ac3'}
+2019-12-06 20:30:26,135 INFO [root] [test_login_parameterized.py(test01_login:40] - 保存登陆的token和content-type：{'Content-Type': 'application/json', 'Authorization': 'Bearer c7d416d0-d614-45ea-89b8-4fb89e8f1ac3'}
+2019-12-06 20:30:26,135 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 20:30:26,228 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:30:26,228 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:30:26,322 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:30:26,322 INFO [root] [login_api.py(login:13] - 登录手机号码：
+2019-12-06 20:30:26,415 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:30:26,415 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:30:26,509 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:30:26,618 INFO [root] [test_login_parameterized.py(test02_No_params:44] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 20:30:26,712 INFO [root] [test_login_parameterized.py(test03_extra_params:49] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '0e26ca89-81c6-4803-8c2a-d4f789ab0250'}
+2019-12-06 20:30:26,790 INFO [root] [test_login_parameterized.py(test04_less_params:54] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:30:26,899 INFO [root] [test_ihrm_emp_parameterized.py(test01_Add_Emp:29] - 添加员工接口返回数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 20:30:26,993 INFO [root] [test_ihrm_emp_parameterized.py(test02_query_emp:40] - 查询员工接口返回的数据：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 20:30:27,071 INFO [root] [test_ihrm_emp_parameterized.py(test03_modify_emp:46] - 员工修改返回的数据：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 20:30:27,164 INFO [root] [test_ihrm_emp_parameterized.py(test04_delete_emp:71] - 员工删除接口返回的数据：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 20:39:42,310 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 20:39:42,606 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:39:42,700 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '1b088b44-bfd7-4fb1-9e40-2816b1fbcf38'}
+2019-12-06 20:39:42,700 INFO [root] [test_login_parameterized.py(test01_login:40] - 保存登陆的token和content-type：{'Content-Type': 'application/json', 'Authorization': 'Bearer 1b088b44-bfd7-4fb1-9e40-2816b1fbcf38'}
+2019-12-06 20:39:42,700 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 20:39:42,809 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:39:42,809 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:39:42,902 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:39:42,902 INFO [root] [login_api.py(login:13] - 登录手机号码：
+2019-12-06 20:39:42,996 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:39:42,996 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:39:43,090 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:39:43,105 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:39:43,199 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'c487fe68-2f45-4723-90e6-005b44d6e001'}
+2019-12-06 20:39:43,199 INFO [root] [test_login_parameterized.py(test01_login:40] - 保存登陆的token和content-type：{'Content-Type': 'application/json', 'Authorization': 'Bearer c487fe68-2f45-4723-90e6-005b44d6e001'}
+2019-12-06 20:39:43,292 INFO [root] [test_login_parameterized.py(test02_No_params:44] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 20:39:43,370 INFO [root] [test_login_parameterized.py(test03_extra_params:49] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '9e0c1bf7-f7fa-493b-abaf-87a4ff154d9d'}
+2019-12-06 20:39:43,448 INFO [root] [test_login_parameterized.py(test04_less_params:54] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:39:43,558 INFO [root] [test_ihrm_emp_parameterized.py(test01_Add_Emp:29] - 添加员工接口返回数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 20:39:43,667 INFO [root] [test_ihrm_emp_parameterized.py(test02_query_emp:40] - 查询员工接口返回的数据：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 20:39:43,776 INFO [root] [test_ihrm_emp_parameterized.py(test03_modify_emp:46] - 员工修改返回的数据：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 20:39:43,870 INFO [root] [test_ihrm_emp_parameterized.py(test04_delete_emp:71] - 员工删除接口返回的数据：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 20:42:33,770 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 20:42:34,222 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:42:34,316 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'ebe01e45-72d4-43d0-967c-281a50562e32'}
+2019-12-06 20:42:34,316 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 20:42:34,410 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:42:34,410 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:42:34,488 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:42:34,503 INFO [root] [login_api.py(login:13] - 登录手机号码：
+2019-12-06 20:42:34,581 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:42:34,581 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:42:34,675 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:42:34,675 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:42:34,768 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '184c753a-ea89-48ba-bd2e-217d284448aa'}
+2019-12-06 20:42:34,846 INFO [root] [test_login_parameterized.py(test02_No_params:44] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 20:42:34,940 INFO [root] [test_login_parameterized.py(test03_extra_params:49] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'a6f52104-04ac-4aee-ab4b-91fa741481ea'}
+2019-12-06 20:42:35,018 INFO [root] [test_login_parameterized.py(test04_less_params:54] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:45:52,948 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 20:45:53,384 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:45:53,494 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '06312f47-f18a-4d54-958f-f75d3c0ed9f8'}
+2019-12-06 20:45:53,494 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 20:45:53,572 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:45:53,572 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:45:53,665 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:45:53,665 INFO [root] [login_api.py(login:13] - 登录手机号码：
+2019-12-06 20:45:53,743 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:45:53,743 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:45:53,837 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:45:53,837 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:45:53,930 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'fab1d61f-d876-4ffa-bb95-1db65cc2e491'}
+2019-12-06 20:45:54,024 INFO [root] [test_login_parameterized.py(test02_No_params:44] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 20:45:54,133 INFO [root] [test_login_parameterized.py(test03_extra_params:49] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '62d77775-e87b-4cc4-9611-d0b5ed23be28'}
+2019-12-06 20:45:54,227 INFO [root] [test_login_parameterized.py(test04_less_params:54] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:46:08,750 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 20:46:09,094 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:46:09,187 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'd80f561a-61f1-4c15-ad54-223201ad1df2'}
+2019-12-06 20:46:09,187 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 20:46:09,281 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:46:09,281 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:46:09,374 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:46:09,374 INFO [root] [login_api.py(login:13] - 登录手机号码：
+2019-12-06 20:46:09,484 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:46:09,484 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:46:09,562 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:46:09,562 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:46:09,671 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '5d0272da-6e93-47ea-b663-981def75d884'}
+2019-12-06 20:46:09,764 INFO [root] [test_login_parameterized.py(test02_No_params:44] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 20:46:09,858 INFO [root] [test_login_parameterized.py(test03_extra_params:49] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'e6aeac6c-50ad-4ef2-97b3-4209270eec3b'}
+2019-12-06 20:46:09,936 INFO [root] [test_login_parameterized.py(test04_less_params:54] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:50:53,857 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 20:50:54,122 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:50:54,231 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'fd17e926-df60-4f70-9360-873beb7a5028'}
+2019-12-06 20:50:54,231 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 20:50:54,309 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:50:54,309 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:50:54,403 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:50:54,403 INFO [root] [login_api.py(login:13] - 登录手机号码：
+2019-12-06 20:50:54,496 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:50:54,496 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:50:54,590 INFO [root] [test_login_parameterized.py(test01_login:31] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:50:54,683 INFO [root] [test_login_parameterized.py(test02_No_params:44] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 20:50:54,761 INFO [root] [test_login_parameterized.py(test03_extra_params:49] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'f9d5f7f4-2edc-44b4-ba31-89d8ec5fe206'}
+2019-12-06 20:50:54,855 INFO [root] [test_login_parameterized.py(test04_less_params:54] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 20:56:24,973 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 20:56:25,254 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:56:25,312 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 20:56:25,319 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:56:25,332 INFO [root] [login_api.py(login:13] - 登录手机号码：
+2019-12-06 20:56:25,338 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 20:56:25,352 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:56:25,359 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 20:56:25,364 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:56:25,369 INFO [root] [login_api.py(login:13] - 登录手机号码：
+2019-12-06 20:56:25,375 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:56:34,685 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 20:56:34,992 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:56:35,011 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 20:56:35,018 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:56:35,030 INFO [root] [login_api.py(login:13] - 登录手机号码：
+2019-12-06 20:56:35,036 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 20:56:48,905 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 20:56:49,186 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:56:49,202 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 20:56:49,202 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:56:49,217 INFO [root] [login_api.py(login:13] - 登录手机号码：
+2019-12-06 20:56:49,217 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 20:58:11,699 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 20:58:11,898 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:58:11,913 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 20:58:11,919 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:58:11,929 INFO [root] [login_api.py(login:13] - 登录手机号码：
+2019-12-06 20:58:11,933 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 20:58:20,873 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 20:58:21,129 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:58:21,161 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 20:58:21,176 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 20:58:21,207 INFO [root] [login_api.py(login:13] - 登录手机号码：
+2019-12-06 20:58:21,223 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 21:08:05,451 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 21:08:07,151 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 21:08:07,292 INFO [root] [test_login.py(test01_login:27] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'a35bcebd-58aa-4cde-9bc3-cbff6e0d3d79'}
+2019-12-06 21:08:07,292 INFO [root] [test_login.py(test01_login:36] - 保存登陆的token和content-type：{'Content-Type': 'application/json', 'Authorization': 'Bearer a35bcebd-58aa-4cde-9bc3-cbff6e0d3d79'}
+2019-12-06 21:08:07,292 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 21:08:07,401 INFO [root] [test_login.py(test02_Username_Error:39] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 21:08:07,401 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 21:08:07,494 INFO [root] [test_login.py(test03_password_Error:43] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 21:08:07,588 INFO [root] [test_login.py(test04_No_params:47] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 21:08:07,588 INFO [root] [login_api.py(login:13] - 登录手机号码：
+2019-12-06 21:08:07,682 INFO [root] [test_login.py(test05_Username_none:51] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '42e7d1ea-c08b-4888-8abe-572a2ee31d96'}
+2019-12-06 21:08:07,713 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 21:08:07,806 INFO [root] [test_login.py(test06_Passwrod_none:55] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 21:08:07,900 INFO [root] [test_login.py(test07_extra_params:59] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'f9302dd3-8134-4f0b-a8a5-76fb1ea45fa7'}
+2019-12-06 21:08:07,994 INFO [root] [test_login.py(test08_less_params:63] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 21:42:05,786 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 21:42:06,020 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 21:42:06,114 INFO [root] [test_login.py(test01_login:27] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'e62c4eac-4f26-416f-bde6-2752c2e81993'}
+2019-12-06 21:42:06,114 INFO [root] [test_login.py(test01_login:36] - 保存登陆的token和content-type：{'Content-Type': 'application/json', 'Authorization': 'Bearer e62c4eac-4f26-416f-bde6-2752c2e81993'}
+2019-12-06 21:42:06,114 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 21:42:06,207 INFO [root] [test_login.py(test02_Username_Error:39] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 21:42:06,207 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 21:42:06,285 INFO [root] [test_login.py(test03_password_Error:43] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 21:42:06,379 INFO [root] [test_login.py(test04_No_params:47] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 21:42:06,394 INFO [root] [login_api.py(login:13] - 登录手机号码：
+2019-12-06 21:42:06,488 INFO [root] [test_login.py(test05_Username_none:51] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'df1dd99a-1ead-4ded-8ec8-edd631751efd'}
+2019-12-06 21:42:06,488 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 21:42:06,596 INFO [root] [test_login.py(test06_Passwrod_none:55] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 21:42:06,685 INFO [root] [test_login.py(test07_extra_params:59] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'a61ba845-5eee-4e3b-a65d-2a106faaf94a'}
+2019-12-06 21:42:06,778 INFO [root] [test_login.py(test08_less_params:63] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 21:42:58,057 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 21:42:58,307 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 21:42:58,401 INFO [root] [test_login.py(test01_login:27] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '59d5b92e-5b24-4949-bde5-47288c5e416a'}
+2019-12-06 21:42:58,401 INFO [root] [test_login.py(test01_login:36] - 保存登陆的token和content-type：{'Content-Type': 'application/json', 'Authorization': 'Bearer 59d5b92e-5b24-4949-bde5-47288c5e416a'}
+2019-12-06 21:42:58,401 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 21:42:58,494 INFO [root] [test_login.py(test02_Username_Error:39] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 21:42:58,494 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 21:42:58,619 INFO [root] [test_login.py(test03_password_Error:43] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 21:42:58,697 INFO [root] [test_login.py(test04_No_params:47] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 21:42:58,697 INFO [root] [login_api.py(login:13] - 登录手机号码：
+2019-12-06 21:42:58,791 INFO [root] [test_login.py(test05_Username_none:51] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'd0402469-87da-4806-b082-754c8f0401ca'}
+2019-12-06 21:42:58,791 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 21:42:58,884 INFO [root] [test_login.py(test06_Passwrod_none:55] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 21:42:58,978 INFO [root] [test_login.py(test07_extra_params:59] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'cd81efab-cb02-446f-8f9b-c22b5588dc61'}
+2019-12-06 21:42:59,056 INFO [root] [test_login.py(test08_less_params:63] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 21:42:59,149 INFO [root] [test_ihrm_emp_parameterized.py(test01_Add_Emp:29] - 添加员工接口返回数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 21:42:59,259 INFO [root] [test_ihrm_emp_parameterized.py(test02_query_emp:40] - 查询员工接口返回的数据：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 21:42:59,352 INFO [root] [test_ihrm_emp_parameterized.py(test03_modify_emp:46] - 员工修改返回的数据：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 21:42:59,430 INFO [root] [test_ihrm_emp_parameterized.py(test04_delete_emp:71] - 员工删除接口返回的数据：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 21:55:15,414 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 21:55:15,632 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 21:55:15,726 INFO [root] [test_login.py(test01_login:27] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'bb1524ff-ff99-4f1b-9224-5dbe9c71d169'}
+2019-12-06 21:55:15,726 INFO [root] [test_login.py(test01_login:36] - 保存登陆的token和content-type：{'Content-Type': 'application/json', 'Authorization': 'Bearer bb1524ff-ff99-4f1b-9224-5dbe9c71d169'}
+2019-12-06 21:55:15,726 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 21:55:15,819 INFO [root] [test_login.py(test02_Username_Error:39] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 21:55:15,819 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 21:55:15,913 INFO [root] [test_login.py(test03_password_Error:43] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 21:55:15,991 INFO [root] [test_login.py(test04_No_params:47] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 21:55:15,991 INFO [root] [login_api.py(login:13] - 登录手机号码：
+2019-12-06 21:55:16,084 INFO [root] [test_login.py(test05_Username_none:51] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'a23f71a6-c22f-4376-9d07-8ac69a294816'}
+2019-12-06 21:55:16,084 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 21:55:16,209 INFO [root] [test_login.py(test06_Passwrod_none:55] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 21:55:16,287 INFO [root] [test_login.py(test07_extra_params:59] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'ffea2e41-fd71-48c8-b598-265963537b34'}
+2019-12-06 21:55:16,365 INFO [root] [test_login.py(test08_less_params:63] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 21:55:16,459 INFO [root] [test_ihrm_emp_parameterized.py(test01_Add_Emp:29] - 添加员工接口返回数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 21:55:16,552 INFO [root] [test_ihrm_emp_parameterized.py(test02_query_emp:40] - 查询员工接口返回的数据：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 21:55:16,646 INFO [root] [test_ihrm_emp_parameterized.py(test03_modify_emp:46] - 员工修改返回的数据：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 21:55:16,740 INFO [root] [test_ihrm_emp_parameterized.py(test04_delete_emp:71] - 员工删除接口返回的数据：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 21:57:05,581 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 21:57:05,799 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 21:57:05,893 INFO [root] [test_login.py(test01_login:27] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '9802b720-54b4-4f96-9c68-fb285f081b6c'}
+2019-12-06 21:57:05,893 INFO [root] [test_login.py(test01_login:36] - 保存登陆的token和content-type：{'Content-Type': 'application/json', 'Authorization': 'Bearer 9802b720-54b4-4f96-9c68-fb285f081b6c'}
+2019-12-06 21:57:05,893 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 21:57:05,987 INFO [root] [test_login.py(test02_Username_Error:39] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 21:57:05,987 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 21:57:06,080 INFO [root] [test_login.py(test03_password_Error:43] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 21:57:06,174 INFO [root] [test_login.py(test04_No_params:47] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 21:57:06,174 INFO [root] [login_api.py(login:13] - 登录手机号码：
+2019-12-06 21:57:06,267 INFO [root] [test_login.py(test05_Username_none:51] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'da46d987-a0b5-4890-9f65-96abdf6e3868'}
+2019-12-06 21:57:06,267 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 21:57:06,362 INFO [root] [test_login.py(test06_Passwrod_none:55] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 21:57:06,456 INFO [root] [test_login.py(test07_extra_params:59] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'd5e3171d-4686-4b4c-b9c8-cbdd98613418'}
+2019-12-06 21:57:06,565 INFO [root] [test_login.py(test08_less_params:63] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 22:02:17,340 INFO [root] [__init__.py(<module>:6] - hello
+2019-12-06 22:02:17,558 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 22:02:17,668 INFO [root] [test_login.py(test01_login:27] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '946a0eb3-f79f-4d1c-913c-4ba74fbfca94'}
+2019-12-06 22:02:17,668 INFO [root] [test_login.py(test01_login:36] - 保存登陆的token和content-type：{'Content-Type': 'application/json', 'Authorization': 'Bearer 946a0eb3-f79f-4d1c-913c-4ba74fbfca94'}
+2019-12-06 22:02:17,668 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 22:02:17,761 INFO [root] [test_login.py(test02_Username_Error:39] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 22:02:17,761 INFO [root] [login_api.py(login:13] - 登录手机号码：13800000002
+2019-12-06 22:02:17,855 INFO [root] [test_login.py(test03_password_Error:43] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 22:02:17,948 INFO [root] [test_login.py(test04_No_params:47] - 登录接口返回的数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 22:02:17,948 INFO [root] [login_api.py(login:13] - 登录手机号码：
+2019-12-06 22:02:18,042 INFO [root] [test_login.py(test05_Username_none:51] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'fbfcb3b1-311e-49ea-8ac1-eb71f7973bb7'}
+2019-12-06 22:02:18,042 INFO [root] [login_api.py(login:13] - 登录手机号码：13900000002
+2019-12-06 22:02:18,136 INFO [root] [test_login.py(test06_Passwrod_none:55] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 22:02:18,229 INFO [root] [test_login.py(test07_extra_params:59] - 登录接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'edbdb8a9-d7d0-4693-8a44-f83ef6e54f3a'}
+2019-12-06 22:02:18,323 INFO [root] [test_login.py(test08_less_params:63] - 登录接口返回的数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 22:02:18,416 INFO [root] [test_ihrm_emp_parameterized.py(test01_Add_Emp:29] - 添加员工接口返回数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202951405249581056'}}
+2019-12-06 22:02:18,416 INFO [root] [test_ihrm_emp_parameterized.py(test01_Add_Emp:35] - 新添加的员工的id为：1202951405249581056
+2019-12-06 22:02:18,510 INFO [root] [test_ihrm_emp_parameterized.py(test02_query_emp:40] - 查询员工接口返回的数据：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202951405249581056', 'mobile': '13700137000', 'username': '比卡丘110', 'password': '803950d916d097f9d140bbfbd8cc9907', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1066240656856453120', 'timeOfEntry': '2019-07-01T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': '1322131', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2019-11-30T00:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '开发部', 'roleIds': [], 'staffPhoto': None}}
+2019-12-06 22:02:18,604 INFO [root] [test_ihrm_emp_parameterized.py(test03_modify_emp:46] - 员工修改返回的数据：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202951405249581056'}}
+2019-12-06 22:02:18,697 INFO [root] [test_ihrm_emp_parameterized.py(test04_delete_emp:71] - 员工删除接口返回的数据：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
